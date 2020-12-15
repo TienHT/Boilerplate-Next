@@ -3,7 +3,9 @@ import Public from '../layouts/public'
 const Home = () => {
   return (
       <Public>
-          helloword
+          <div>
+            <h1>index page</h1>
+          </div>
       </Public>
   );
 }

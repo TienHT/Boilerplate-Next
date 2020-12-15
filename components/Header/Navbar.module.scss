@@ -1,0 +1,17 @@
+.nav-bar{
+    display: flex;
+    list-style-type: none;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    .nav-bar__item{
+        display: block;
+    }
+    .nav-bar_link{
+        text-decoration: none;
+        display: block;
+    }
+}
+.nav-bar-children{
+    flex-direction: column;
+}
