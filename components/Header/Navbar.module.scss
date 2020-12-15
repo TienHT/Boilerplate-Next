@@ -1,0 +1,28 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    
+    .nav-bar__item{
+        display: block;
+        position: relative;
+    }
+    .nav-bar__link{
+        text-decoration: none;
+        display: block;
+        color: #eee;
+        height: 40px;
+        line-height: 40px;
+        width: 120px;
+        text-align: center;
+    }
+}
+.nav-bar-children{
+    flex-direction: column;
+    position: absolute;
+    width: 200px;
+    background-color: turquoise;
+}

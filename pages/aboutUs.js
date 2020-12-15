@@ -1,10 +1,13 @@
+import  Public from '../layouts/public';
 import React from 'react';
 
 const aboutUs = () => {
     return (
-        <div>
-            about us     
-        </div>
+        <Public>
+            <div>
+                About Page
+            </div>
+        </Public>
     );
 }
 
