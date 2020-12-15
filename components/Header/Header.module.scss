@@ -1,9 +1,11 @@
 .global-header{
-    background-color: transparent;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.418);
+    height: 80px;
+    padding: 0px 24px;
     .logo{
-        max-width: 100px;
-        width: 100%;
+        flex: 1;
     }
-    
 }

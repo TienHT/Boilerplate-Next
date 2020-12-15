@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import Navbar from './Navbar';
-import styles from './Navbar.module.scss';
+import './Navbar.module.scss';
 
-const s = n => (styles[n]);
+
 function NavbarItem({route}) {
     return (
-        <li>
+        <li className={`nav-bar__item`}>
             <Link href={route.path}>
-                <a>{route.title}</a>
+                <a className={`nav-bar__link`}>{route.title}</a>
             </Link>
             {
                 route.children && <Navbar isChild={true} routes={route.children} />
