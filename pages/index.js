@@ -1,10 +1,9 @@
 import React from 'react';
-import Public from '../layouts/public'
 const Home = () => {
   return (
-      <Public>
+      <div>
           helloword
-      </Public>
+      </div>
   );
 }
 

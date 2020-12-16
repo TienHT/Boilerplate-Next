@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head'
 import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
 const Public = ({children,title = 'Default title'}) => {
     return (
         <div>
@@ -11,7 +12,7 @@ const Public = ({children,title = 'Default title'}) => {
         </Head>
         <Header/>
         {children}
-        <footer>{'I`m here to stay'}</footer>
+        <Footer/>
       </div>
     );
 }
