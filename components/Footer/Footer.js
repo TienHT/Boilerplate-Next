@@ -4,11 +4,6 @@ const useStyles = makeStyles((theme) => ({
     paperStyle: {
         padding: '16px',
     },
-    footer: {
-       position:'absolute',
-       bottom:0,
-       left:0,
-    }
 }))
 
 const Footer = () => {

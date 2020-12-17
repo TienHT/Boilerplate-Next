@@ -11,7 +11,7 @@ import Zoom from "@material-ui/core/Zoom";
 import InputBase from "@material-ui/core/InputBase";
 import { fade } from "@material-ui/core/styles";
 import SearchIcon from "@material-ui/icons/Search";
-import { IconButton, Tab, Tabs, SwipeableDrawer, List, ListItem, ListItemIcon, ListItemText } from "@material-ui/core";
+import { IconButton, Tab, Tabs, SwipeableDrawer, List, ListItem, ListItemIcon, ListItemText, Button } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import routes from "../../routes.js";
 import { useRouter } from 'next/router'
@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
     "&:hover": {
       backgroundColor: fade(theme.palette.common.white, 0.25),
     },
-    marginLeft: 0,
+    marginRight: 20,
     width: "100%",
     [theme.breakpoints.up("sm")]: {
       marginLeft: theme.spacing(1),
@@ -193,14 +193,11 @@ export default function BackToTop(props) {
             >
               <MenuIcon />
             </IconButton>
-
             <Link  href='/'>
               <Typography component='a' variant="h6" noWrap>
                 THƯƠNG QUÁN
               </Typography>
             </Link>
-
-
             <Tabs
               value={value}
               onChange={handleChange}
@@ -227,6 +224,7 @@ export default function BackToTop(props) {
               inputProps={{ "aria-label": "search" }}
             />
           </div>
+          <Button variant="outlined"  color="inherit">Booking</Button>
         </Toolbar>
       </AppBar>
       <Toolbar id="back-to-top-anchor" />

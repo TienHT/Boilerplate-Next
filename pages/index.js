@@ -1,9 +1,9 @@
 import React from 'react';
 const Home = () => {
   return (
-      <div>
-          helloword
-      </div>
+    <div>
+      hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word hello word
+    </div>
   );
 }
 

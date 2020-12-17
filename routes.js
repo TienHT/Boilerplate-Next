@@ -5,17 +5,18 @@ const clientRoutes = [{
     path: "/",
     name: "Về Chúng Tôi",
     layout: 'public',
-    icon:<InfoIcon/>
-}, {
-    path: "/singer",
-    name: "Chuyên Gia",
-    layout: 'public',
-    icon:<PersonIcon/>
+    icon: <InfoIcon />
 }, {
     path: "/news",
     name: "Bài Viết",
     layout: 'public',
-    icon:<LineWeightIcon/>
+    icon: <LineWeightIcon />
 },
+{
+    path: "/professor",
+    name: "Chuyên Gia",
+    layout: 'public',
+    icon: <PersonIcon />
+}
 ];
 export default clientRoutes;
